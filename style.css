@@ -5,14 +5,32 @@
 .sidebar {
     padding: 5px;
     margin: 5px;
-    display: inline-flex;
+    
     
 
+}
+li {
+    display: flex;
+    gap: 6x;
+    align-items: center;
+    border-radius: 10px;
 }
 .contact-list {
     padding: 25px;
     margin: 10px;
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    list-style: none;
+    padding: 20px;
+
+
 }
+.contact-section
+{
+    margin: 50px;
+}
+
 .chat-header {
         /*background-color: blueviolet;*/
         border: 2px black solid;
@@ -23,5 +41,27 @@
 }
 .last-connect {
     font-size: 20px;
-    
+}
 
+.status::before
+    {
+        margin-left: 10px;
+        content: "•";
+
+    }  
+    .red {color: red;}  
+    .green{color: green;} 
+.name
+{
+    margin-left: 10px;
+}
+.select
+{
+    background-color: rgb(204, 204, 204);
+    padding-block: 5px;
+}
+.aside
+{
+    display: flex;
+
+}
