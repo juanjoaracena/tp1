@@ -1,7 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+
 .sidebar {
     padding: 5px;
     margin: 5px;
@@ -64,4 +67,27 @@ li {
 {
     display: flex;
 
+
+}
+aside,main
+ {
+    height: 100vh;
+    width: 100%;
+}
+.chat 
+{
+   display: flex;
+   flex-direction: column;
+
+}
+body
+{
+    display: flex;
+  
+  
+}
+.chat-header
+{
+    display: flex;
+    justify-content: space-between;
 }
