@@ -6,12 +6,14 @@
 
 
 .sidebar {
-    padding: 5px;
-    margin: 5px;
+    padding: 35px;
+    /*margin: 5px;*/
+    border-right: 1px solid black;
     
     
 
 }
+
 li {
     display: flex;
     gap: 6x;
@@ -67,25 +69,27 @@ li {
 .content
 {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
+    justify-content:flex-start;
     width: 100%;
+    height: 100vh;
 
 }
-aside,main
- {
-    height: 100vh;
-    width: 100%;
-}
+
+
 .chat 
 {
    display: flex;
    flex-direction: column;
-
+   margin: 10px;
+   
 }
 body
 {
     display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+
   
   
 }
