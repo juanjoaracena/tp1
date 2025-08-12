@@ -50,12 +50,8 @@ li {
 .chat-header
  {
         display: flex;
-        border: 2px black solid;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 25px;
-        width: 100%;
-        justify-content:start;
+         width: 100%;
+        justify-content:flex-start;
         align-items: center;
         gap: 10px;
         width: 250%;
@@ -124,3 +120,16 @@ body
     width: 100%;
   
 }
+.chat-actions
+{ 
+    display: flex;
+    gap: 10px;
+}
+.barra
+{
+    display: flex;
+    justify-content: space-between;
+     border: 2px black solid;
+        border-radius: 5px;
+        padding: 5px;
+ }
