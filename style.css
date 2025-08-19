@@ -25,7 +25,7 @@ main
     .sidebar
             {
                 padding: 20px;
-                border-right: 1px solid black;
+                border-right: 1px solid #ccc;
             }
    .content
             {
@@ -62,7 +62,8 @@ li
                     font-size: 20px;
    
                 }
-    .contact-section
+
+                .contact-section
                 {
                     margin: 50px;
                 }
@@ -74,6 +75,7 @@ li
                     justify-content:flex-start;
                     align-items: center;
                     gap: 10px;
+                    padding: ;
                 }
     .last-connect 
                 {
