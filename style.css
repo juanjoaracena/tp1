@@ -25,7 +25,7 @@ main
     .sidebar
             {
                 padding: 20px;
-                border-right: 1px solid #ccc;
+                border-right: 1px solid grey;
             }
    .content
             {
@@ -38,7 +38,7 @@ main
                 width: 100%;
                 border-radius: 6px;
                 padding: 8px;
-                border: 1px solid grey;
+                border: 1px solid #ededed91;
             }
 /*li 
     {
@@ -68,7 +68,13 @@ main
         align-items: center;
         gap: 15px;
         padding: 10px 0px;
+        border-radius: 5px;
 
+}
+.contact:hover
+{
+background-color: #edededd3;
+/*border-radius: 5px;*/
 }
                 .contact-section
 
@@ -79,20 +85,30 @@ main
     .chat-header
                 {
                     display: flex;
-                    width: 100%;
-                    justify-content:flex-start;
+                  /*  width: 100%;*/
+                    justify-content: space-between;
                     align-items: center;
                     gap: 10px;
-                    padding: ;
+                    padding-bottom: 10px;
+                    
                 }
-    .last-connect 
+    .chat-header img
+    {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .chat-header h3 {
+        font-size: 25px;
+    }
+         .last-connect 
                 {
-                    font-size: 20px;
+                    font-size: 15px;
                 }
 
     .status::before
                 {
-                    font-size: 25px;
+                    font-size: 18px;
                     margin-left: 10px;
                     content: "•  ";
                     color:red
@@ -107,17 +123,17 @@ main
     .name
             {
                 margin-left: 10px;
-                font-size: 22px;
+                font-size: 18px;
             }
     .status
             {
-                font-size: 20px;
+                font-size: 14px;
                 color: grey;
                 margin-bottom: 15px;
             }
     .select
             {
-                background-color: rgb(204, 204, 204);
+                background-color: #edededd3;
                 padding-block: 5px;
             }
     .content
@@ -151,7 +167,7 @@ main
             {
                 display: flex;
                 justify-content: space-between;
-                border: 2px black solid;
+                border: 2px #83808023 solid;
                 border-radius: 5px;
                 padding: 5px;
             }
