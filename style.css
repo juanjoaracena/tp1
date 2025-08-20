@@ -122,12 +122,12 @@ main
                 flex-direction: column;
                 margin: 10px;
                 }
-    button
-        {
-        height: 40px;
-        width: 40px;
-        font-size: x-large;
-        }
+button
+    {
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+    }
         .chat-actions
                 { 
                 display: flex;
