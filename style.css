@@ -27,11 +27,11 @@ main
                 padding: 20px;
                 border-right: 1px solid grey;
             }
-   .content
+   /*.content
             {
                 display: flex;
                 width: 100%;
-            }
+            }*/
     .search
             {
                 margin-bottom: 10px;
@@ -214,5 +214,20 @@ background-color: #edededd3;
                 background-color: #edededd3;
                 align-self: end;
                 text-align: right;
+            }
+            .received{
+                background-color: #ededed91;
+                align-self: start;
+                text-align: left;
+            }
+            .timestamp
+            
+            {
+                display: flex;
+                font-size: 10px;
+                color:grey;
+                margin-top: 4px;
+                text-align: right;
+
             }
             
