@@ -198,4 +198,5 @@ button
                 .sidebar{display: none;}
                 .message{ width: 90%;}
                 .header{display: inline-block;}
-         }   
+                .chat-header{display: inline-block;}
+                }   
