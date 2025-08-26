@@ -193,4 +193,9 @@ button
                 margin-top: 4px;
                 text-align: right;
                 }
-            
+         @media(max-width: 880px)
+                {
+                .sidebar{display: none;}
+                .message{ width: 90%;}
+                .header{display: inline-block;}
+         }   
